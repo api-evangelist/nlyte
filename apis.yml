@@ -1,7 +1,25 @@
 aid: nlyte
 name: nlyte
-description: nlyte is a company surfaced as a portfolio company of balderton-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: nlyte is an enterprise Data Center Infrastructure Management (DCIM) software
+  provider, now part of Carrier, that helps organizations discover, model, and manage
+  physical and virtual data-center assets, capacity, power, cooling, connectivity, and
+  operational workflows across facilities. Nlyte products expose REST APIs (including
+  the NgageAPI / Ngauge web service) plus a portfolio of pre-built bi-directional connectors
+  for CMDB, ITSM, service desk, virtualization, and building-management systems. The API
+  is delivered to customers through the Nlyte customer portal rather than a public
+  developer program, so there is no open developer portal, OpenAPI definition, or self-serve sign-up.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.nlyte.com/web/wp-content/uploads/2019/05/logo.png
 url: https://raw.githubusercontent.com/api-evangelist/nlyte/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Data Center
+- DCIM
+- Infrastructure Management
+- Asset Management
+- IT Operations
+- Connectors
+- REST API
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +47,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.nlyte.com/
+  url: https://www.nlyte.com/
+- type: Blog
+  url: https://www.nlyte.com/blog/
+- type: Pricing
+  url: https://www.nlyte.com/company/pricing/
+- type: PrivacyPolicy
+  url: https://www.nlyte.com/privacy-policy/
+- type: Support
+  url: https://www.nlyte.com/support/customer-support/
+- type: DomainSecurity
+  url: security/nlyte-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
