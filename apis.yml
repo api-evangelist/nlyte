@@ -8,6 +8,17 @@ description: nlyte is an enterprise Data Center Infrastructure Management (DCIM)
   for CMDB, ITSM, service desk, virtualization, and building-management systems. The API
   is delivered to customers through the Nlyte customer portal rather than a public
   developer program, so there is no open developer portal, OpenAPI definition, or self-serve sign-up.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
