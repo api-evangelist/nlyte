@@ -2,14 +2,10 @@
   "repo": "nlyte",
   "feeds": [
     {
-      "source": "https://www.nlyte.com/feed/",
-      "error": "HTTPError"
-    },
-    {
       "source": "https://www.nlyte.com/",
       "error": "HTTPError"
     }
   ],
   "post_count": 7,
-  "fetched": "2026-08-22T20:20:02Z"
+  "fetched": "2026-08-30T22:33:40Z"
 }
