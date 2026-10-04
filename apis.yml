@@ -43,7 +43,7 @@ created: '2026-07-17'
 modified: '2026-07-20'
 tags:
 - Company
-- Data-Center
+- Data Center
 - DCIM
 - Infrastructure Management
 - Asset Management
@@ -59,6 +59,7 @@ tags_raw:
 - IT Operations
 - Connectors
 - REST API
+- Data-Center
 apis: []
 maintainers:
 - FN: Kin Lane
